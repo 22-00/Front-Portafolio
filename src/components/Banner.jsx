@@ -67,7 +67,7 @@ export const Banner =() => {
                         <TrackVisibility>
                         {({isVisible}) =>
                         <div className={isVisible ? "animate__animated animate__bounce" : ""}>
-                        <span className="tagline">Bimvenido a mi portafolio</span>
+                        <span className="tagline">Bienvenido a mi portafolio</span>
                         <h1 className={windowWidth > 700 ? "" : "custom-mobile"}>{`Hola soy desarrollador `}<br/><span className="wrap">{text}</span></h1>
                         <p>Soy una persona apasionada y dedicada a la programación, con una actitud activa hacia mi trabajo. Estoy constantemente actualizando y expandiendo mis habilidades para estar al tanto de las últimas tendencias en el mundo de la tecnología. En pocas palabras, mi objetivo es crecer profesionalmente.</p>
                         </div>}
