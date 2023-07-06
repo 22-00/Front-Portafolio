@@ -2,7 +2,7 @@ import React, { useState, useEffect} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import newBanner from "./assets/img/programando.svg"
-import Cv from "./assets/Curriculum/CV-H.cano.pdf"
+import Cv from "./assets/Curriculum/New-CV-H.cano.pdf"
 import { saveAs } from 'file-saver';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
