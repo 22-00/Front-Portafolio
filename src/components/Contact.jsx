@@ -69,7 +69,6 @@ export const Contact = () => {
         event.preventDefault();
         setButtonText("Enviando...")
         const response = await axios.post("https://server-portafolio.vercel.app/contact", form)
-        console.log(response.data);
         setButtonText("Enviar")
         if(response.data.code === 200){
             swal({
